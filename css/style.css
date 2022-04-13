@@ -219,11 +219,29 @@ text-align: center;
   display: flex;
 }
 
-/* .text-li::before{
+.text-li::before{
+  content:"";
+  display: block;
   background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.icon-antena::before{
   background-image: url(../images/icon/antenna\ 1.png);
-  padding: 25px 0;
-} */
+}
+.icon-clock::before{
+  background-image: url(../images/icon/clock\ 1.png);
+}
+.icon-diagram::before {
+  background-image: url(../images/icon/diagram\ 1.png)
+}
+.icon-astronaut::before {
+  background-image: url(../images/icon/astronaut\ 1.png)
+}
 
 .text-li:not(:last-child){
   margin-right: 30px;
@@ -370,6 +388,55 @@ margin-right: 10px;
   margin-bottom: 16px ;
   padding: 0;
 }
+
+/* ----------------------------------Clients----------------------------------- */
+.clients{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.clients-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basic-color);
+  margin-bottom: 50px;
+}
+
+.clients-list{
+  display: flex;
+}
+
+.clients-item{
+  border: 1px solid #AFB1B8;
+}
+.clients-item + .clients-item{
+  margin-left: 30px;
+}
+
+.clients-link{
+  display: flex;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-item:hover,
+.clients-item:focus{
+  border-color: var(--second-basic-color) ;
+}
+
+.clients-icon{
+  fill: #AFB1B8;
+}
+
+.clients-item:hover .clients-icon{
+  fill: var(--second-basic-color);
+}
+
 
 /*------------Footer------------*/
 .footer {
