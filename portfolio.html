@@ -17,28 +17,38 @@
     </head>
 
     <body>
-        <!-- Header -->
-                <header class="header">
-                    <div class="container header-item">
-                        <a href="./index.html" class="logo">
-                            <span class="logo1">Web</span>Studio
-                        </a>
-                        <nav class="header-nav">
-                            <ul class="header-page">
-                                <li class="header-page-list"><a class="header-list" href="./index.html">Студия </a>
-                                </li>
-                                <li class="header-page-list"><a class="header-list header-list-now " href="./portfolio.html">Портфолио</a></li>
-                                <li class="header-page-list"><a class="header-list" href="">Контакты</a></li>
-                            </ul>
-                        </nav>
-                        <ul class="header-page-contact">
-                            <li class="header-page-list"><a class="header-contact"
-                                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                            <li class="header-page-list"><a class="header-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <!-- Header -->
+            <header class="header">
+                <div class="container header-item">
+                    <a href="./index.html" class="logo">
+                        <span class="logo1">Web</span>Studio
+                    </a>
+                    <nav class="header-nav">
+                        <ul class="header-page">
+                            <li class="header-page-list"><a class="header-list" href="./index.html">Студия </a>
+                            </li>
+                            <li class="header-page-list"><a class="header-list header-list-now" href="./portfolio.html">Портфолио</a></li>
+                            <li class="header-page-list"><a class="header-list" href="">Контакты</a></li>
                         </ul>
-                    </div>
-                </header>
-
+                    </nav>
+                    <ul class="header-page-contact">
+                        <li class="header-page-list">
+                            <a class="header-contact" href="mailto:info@devstudio.com">
+                                <svg class="header-social-icon" width="16" height="16">
+                                    <use href="./images/icon/icons.svg#icon-mail"></use>
+                                </svg>
+                                info@devstudio.com</a>
+                        </li>
+                        <li class="header-page-list">
+                            <a class="header-contact" href="tel:+380961111111">
+                                <svg class="header-social-icon" width="16" height="16">
+                                    <use href="./images/icon/icons.svg#icon-phone"></use>
+                                </svg>
+                                +38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
         <!-- Portfolio -->
         <main>
                 <section class="portfolio">
@@ -141,21 +151,57 @@
                 </section>
         </main>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-social">
                 <a class="footer-logo" href="">
                     <span class="logo1">Web</span>Studio
                 </a>
                 <address class="footer-address">
                     г. Киев, пр-т Леси Украинки, 26
                     <ul class="footer-list">
-                        <li class="footer-item"><a class="footer-link" href="mailto:info@example.com">info@example.com</a></li>
+                        <li class="footer-item"><a class="footer-link" href="mailto:info@example.com">info@example.com</a>
+                        </li>
                         <li class="footer-item"><a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a></li>
                     </ul>
-                </address>
             </div>
-        </footer>
+            </address>
+            <div class="footer-social fott">
+                <h3 class="footer-social-title">присоединяйтесь</h3>
+                <ul class="footer-social-list">
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icon/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icon/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icon/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icon/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     </body>
 
 </html>
