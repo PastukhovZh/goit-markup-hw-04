@@ -508,9 +508,11 @@ flex-direction: column
 
 }
 
-.footer-social-item{
 
+.footer-social-item + .footer-social-item{
+  margin-left: 10px;
 }
+
 
 .footer-social-link{
   display: flex;
