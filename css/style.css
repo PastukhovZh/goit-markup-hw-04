@@ -532,10 +532,6 @@ fill: var(--third-basic-color);
 margin-left: 70px;
 }
 
-.fott{
-  flex-direction: column;
-  margin-top: 12px;
-}
 /* ------------PORTFOLIO------------ */
 
 .portfolio {
